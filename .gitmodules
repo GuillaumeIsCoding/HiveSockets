@@ -1,0 +1,6 @@
+[submodule "HiveSockets/dep/sockets"]
+	path = HiveECS/dep/sockets
+	url = https://github.com/ValveSoftware/GameNetworkingSockets
+[submodule "Test/dep/googletest"]
+	path = Test/dep/googletest
+	url = https://github.com/google/googletest.git
