@@ -1,0 +1,27 @@
+{
+  "name" : "hivesockets",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "435a9415ca61939ee0382f703009c440a8eae273",
+  "dependencies" : [ {
+    "name" : "abseil",
+    "version>=" : "20240722.0"
+  }, {
+    "name" : "openssl",
+    "version>=" : "3.4.0"
+  }, {
+    "name" : "protobuf",
+    "version>=" : "5.26.1"
+  }, {
+    "name" : "utf8-range",
+    "version>=" : "5.26.1"
+  }, {
+    "name" : "vcpkg-cmake-config",
+    "version>=" : "2024-05-23"
+  }, {
+    "name" : "vcpkg-cmake-get-vars",
+    "version>=" : "2024-09-22"
+  }, {
+    "name" : "vcpkg-cmake",
+    "version>=" : "2024-04-23"
+  } ]
+}
