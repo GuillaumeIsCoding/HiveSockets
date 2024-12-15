@@ -4,3 +4,6 @@
 [submodule "Test/dep/googletest"]
 	path = Test/dep/googletest
 	url = https://github.com/google/googletest.git
+[submodule "HiveSockets/dep/HiveCore"]
+	path = HiveSockets/dep/HiveCore
+	url = https://github.com/GuillaumeIsCoding/HiveCore
