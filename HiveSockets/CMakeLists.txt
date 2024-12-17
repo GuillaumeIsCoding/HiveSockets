@@ -11,14 +11,16 @@ endif()
 
 # Dependencies
 add_subdirectory(dep/sockets)
+add_subdirectory(dep/HiveCore)
 
 file(GLOB_RECURSE SOURCES src/*.cpp src/*.h)
 
 add_library(HiveSockets ${SOURCES})
-target_link_libraries(HiveSockets GameNetworkingSockets)
+target_link_libraries(HiveSockets GameNetworkingSockets HiveCore)
 target_include_directories(HiveSockets PRIVATE src)
 
 target_include_directories(HiveSockets PRIVATE dep/sockets/src)
+target_include_directories(HiveSockets PRIVATE dep/HiveCore/HiveCore/src)
 
 # Precompiled header file
 target_precompile_headers(HiveSockets PRIVATE src/hvpch.h)
